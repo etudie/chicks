@@ -1,22 +1,19 @@
 {
   "name": "chicks",
-  "version": "1.0.0",
-  "description": "Chick Chasing Challenge App",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/etudie/chicks.git"
-  },
-  "author": "Xue",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/etudie/chicks/issues"
-  },
-  "homepage": "https://github.com/etudie/chicks#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "bootstrap": "^4.5.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.16.4",
+    "http-errors": "^1.6.3",
+    "jade": "~1.11.0",
+    "jquery": "^3.5.1",
+    "morgan": "~1.9.1",
+    "pug": "^3.0.0"
   }
 }
